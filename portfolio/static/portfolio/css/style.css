@@ -1,12 +1,52 @@
-.header{
-    background-color:cornflowerblue;
-    color:linen;
-}
-.main{background-color:indigo;
-    color:pink;
-    
+*{
+    background-color:brown
+    font-size: 20px;
+    box-sizing: border-box;
 }
 
-.footer{background-color:lightcoral;
-color:wheat;}
+header{
+    font-size: 30px;
+    background-color:cornflowerblue;
+    height: 300px;
+    color:linen;
+    border-radius: 10px 10px 10px 10px;
+    border-color: wheat;
+    border-style: dotted;
+    border-width: 20px;
+    border-spacing: 10px
+}
+section{
+    display:flex;
+    justify-content:center;
+    margin: 10px auto;
+    background-color:#bdbde6;
+    height:500px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+nav{
+    background-color:rgb(242, 247, 170);
+    width:20%;
+}
+
+article{
+    background-color:red;
+    width:50%;
+
+
+}
+
+aside{
+    background-color:blue;
+    width:30%;
+
+
+}
+
+footer{
+    background-color:rgb(153, 198, 248);
+    color:rgb(255, 245, 227);
+    height:100px;
+    border-radius: 20px 20px 20px 20px;
+}
 
