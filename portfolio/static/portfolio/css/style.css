@@ -16,8 +16,7 @@ header{
     border-spacing: 10px
 }
 section{
-    display:flex;
-    justify-content:center;
+    align-items:flex-start;
     margin: 10px auto;
     background-color:#bdbde6;
     height:500px;
@@ -26,19 +25,23 @@ section{
 
 nav{
     background-color:rgb(242, 247, 170);
-    width:20%;
+    width:100px;
+    height:100px;
 }
 
 article{
     background-color:red;
-    width:50%;
+    justify-content:space-between;
+    width:400px;
+    height:100px;
 
 
 }
 
 aside{
     background-color:blue;
-    width:30%;
+    width:200px;
+    height:100px;
 
 
 }
