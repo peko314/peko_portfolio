@@ -7,5 +7,7 @@ def home(request):
 
 def secondhome(request):
     return render(request, 'portfolio/home2.html')    
+def youtube(request):
+    return render(request, 'portfolio/youtube.html')    
 
 

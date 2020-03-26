@@ -21,4 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',portfolio.views.home,name="home"),
     path('secondhome/',portfolio.views.secondhome,name="secondhome"),
+    path('youtube/',portfolio.views.youtube,name="youtube"),
 ]
