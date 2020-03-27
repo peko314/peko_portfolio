@@ -1,13 +1,27 @@
-
+{% load static %}
 <!DOCTYPE html>
     <html>
     <head>
         <title>youtube</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="{% static 'portfolio/css/youtubestyle.css' %}">
+        <script src="https://kit.fontawesome.com/739fbdbff0.js" crossorigin="anonymous"></script>
 
     </head>
     <body>
         <header>
+            <div>
+                <img style="width: 120px;" src="{%static 'youtube.jpg'%}">
+                <img style="width: 60px;" src="{%static 'menu.jpg'%}">
+
+            </div>
+            <div class="search-box">
+                <input class="search-txt" name="" placeholder="검색">
+                <a class="search-btn" href="#">
+                    <i class="<i class="fas fa-search"></i>"
+
+                </a>
+            </div>
 
 
         </header>
@@ -17,26 +31,38 @@
                 <li>Home</li>
                 <li>Trending</li>
                 <li>Subscriptions</li>
-             </ul>
-             <ul>
+            <hr>
+             
                  <li>Library</li>
                  <li>History</li>
                  <li>Watch later</li>
                  <li>Liked videos</li>
-             </ul>
-             <ul>
+            <hr>
+             
                  <h5>SUBSCRIPTIONS</h5>
                  <li>마정이 majunge</li>
                  <li>셀로드</li>
-            </ul>
-            <ul>
+            
+            <hr>
                 <h5>MORE FROM YOUTUBE</h5>
                 <li>YouTube Premium</li>
                 <li>Youtube Movies</li>
-             </ul>
+            </ul>
          </nav>
          <article>
-             <div></div>
+             <div class="samsungad" >
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/itjqNmqHk_Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <img style= "width:500px;" src="{% static 'samsungad.jpg' %}">
+             </div>
+
+             <p style="font-size:40px;">
+               <b>맞춤 동영상</b>
+
+
+             </p>
+
+             
+
              <div></div>
              <div></div>
 
